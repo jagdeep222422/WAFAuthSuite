@@ -1,6 +1,17 @@
-/home        /home.html
-/login       /login.html
-/logout      /logout.php
-/profile     /profile.html
-/register    /register.html
+# Redirects for HTML files
+/home    /home.html
+/login   /login.html
+/profile /profile.html
+/register /register.html
+
+# Redirects for PHP files
+/logout.php   /logout
+/password_checker.php   /password_checker
+/profile.php   /profile
+/register.php   /register
+
+# Additional redirects
+/index.html   /home.html   301
+
+# CSS file
 /style.css   /style.css
